@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b639e</color>
+    <color name="colorPrimaryDark">#24374A</color>
+    <color name="colorAccent">#2B639E</color>
+    <color name="btngreen">#00FF00</color>
+    <color name="boxes">#5680AD</color>
+    <color name="btntint">#59716C</color>
+    <color name="textColor">#FFFBFF</color>
+    <color name="offergreen">#203D5A</color>
+    <color name="offerblue">#2C7161</color>
+    <color name="listbackground">#F0EFF5</color>
+    <color name="settingBackground">#EFEFEF</color>
+    <color name="background_pager">#4B4443</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="black">#000000</color>
+    <color name="splash_background">#26437B</color>
+    <color name="alert_button">#06376D</color>
+    <color name="list_alert">#4BE1BA</color>
+    <color name="list_cancel">#DDE1DE</color>
+    <color name="special">#2CA84B</color>
+    <color name="titlecolor">#2b639e</color>
+</resources>

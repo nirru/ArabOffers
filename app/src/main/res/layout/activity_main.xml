@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:animateLayoutChanges="true"
+    android:id="@+id/mainLayoutRel"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="arab_offers.lue.com.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dip"
+        android:orientation="vertical">
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="100dip"
+            android:layout_height="80dip"
+            android:background="@drawable/icon_new"
+            android:layout_gravity="center"/>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:gravity="center"
+            android:layout_marginBottom="5dip"
+            android:text="@string/reg_head"
+            android:textColor="@color/textColor"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="10dip"
+
+            android:weightSum="1">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="0dip"
+                android:padding="10dip"
+                android:gravity="right"
+                android:background="@drawable/roundedbuy"
+                android:layout_height="match_parent"
+                android:id="@+id/name"
+                android:layout_weight="1"
+                android:textColorHint="@color/offergreen"
+                android:textSize="15dip"
+                android:hint="@string/name"
+                android:textColor="@color/textColor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ageL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="10dip"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="0dip"
+                android:padding="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textSize="15dip"
+                android:focusable="false"
+                android:clickable="false"
+                android:id="@+id/age"
+                android:textColorHint="@color/offergreen"
+                android:hint="@string/reg_age"
+                android:background="@drawable/roundedbuy"
+                android:textColor="@color/textColor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/spinnerg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="10dip"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="0dip"
+                android:padding="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColorHint="@color/offergreen"
+                android:textSize="15dip"
+                android:focusable="false"
+                android:clickable="false"
+                android:id="@+id/spinnergender"
+                android:hint="@string/reg_gender"
+                android:background="@drawable/roundedbuy"
+                android:textColor="@color/textColor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/countryL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="10dip"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="0dip"
+                android:padding="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textSize="15dip"
+                android:textColorHint="@color/offergreen"
+                android:focusable="false"
+                android:clickable="false"
+                android:id="@+id/country"
+                android:hint="@string/country"
+                android:background="@drawable/roundedbuy"
+                android:textColor="@color/textColor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/mobileL"
+            android:weightSum="1">
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:textSize="15dip"
+                android:padding="10dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginBottom="10dip"
+                android:id="@+id/phonecode"
+                android:background="@drawable/roundedbuy"
+                android:focusable="false"
+                android:clickable="false"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textColor="@color/textColor"/>
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:padding="10dip"
+                android:gravity="right"
+                android:textColorHint="@color/offergreen"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginBottom="10dip"
+                android:layout_weight="0.75"
+                android:textSize="15dip"
+                android:inputType="phone"
+                android:hint="@string/mobile"
+                android:background="@drawable/roundedbuy"
+                android:id="@+id/mobile"
+                android:textColor="@color/textColor"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/cityL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="10dip"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="0dip"
+                android:padding="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColorHint="@color/offergreen"
+                android:textSize="15dip"
+                android:focusable="false"
+                android:gravity="right"
+                android:clickable="false"
+                android:id="@+id/city"
+                android:hint="@string/city"
+                android:background="@drawable/roundedbuy"
+                android:textColor="@color/textColor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/areaL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="10dip"
+
+            android:weightSum="1">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:layout_width="0dip"
+                android:padding="10dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="15dip"
+                android:textColorHint="@color/offergreen"
+                android:focusable="false"
+                android:gravity="right"
+                android:clickable="false"
+                android:id="@+id/area"
+                android:hint="@string/region"
+                android:background="@drawable/roundedbuy"
+                android:textColor="@color/textColor"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dip"
+            android:id="@+id/okay"
+            android:gravity="center"
+            android:layout_gravity="bottom|end"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/rounded_btn"
+            android:weightSum="1">
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:textSize="15dip"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:layout_gravity="center"
+                android:textColor="@color/textColor"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dip"
+            android:id="@+id/linearlater"
+            android:visibility="gone"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/rounded_btn_2"
+            android:weightSum="1">
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4"
+                android:textSize="15dip"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="@string/reg_later"
+                android:textColor="@color/textColor"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:textSize="15dip"
+                android:textColor="@color/textColor"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cards"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="5dp">
+
+
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:theme="@style/Theme.MyCard"-->
+    <!--android:id="@+id/cards"-->
+    <!--android:layout_margin="5dp">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlist_item"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/textColor">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:id="@+id/special"
+                android:visibility="gone"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold"
+                android:text="@string/offers"
+                android:textColor="@color/textColor"
+                android:layout_margin="10dip"
+                android:background="@drawable/rounded_special"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:id="@+id/companyName"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/special"
+                android:gravity="right|center"
+                android:text="Carrefour Super Market"
+                android:textColor="@color/titlecolor"
+                android:textStyle="bold"
+                android:layout_margin="14sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/more"
+                android:id="@+id/offertext"
+                android:gravity="right|center"
+                android:layout_alignParentRight="true"
+                android:text="Hurry Up for This Offer"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:layout_margin="12sp"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/more"
+                android:layout_alignParentLeft="true"
+                android:text="@string/more"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:layout_margin="12sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:visibility="gone"
+                android:id="@+id/webView">
+
+            </WebView>
+
+            <ImageView
+                android:id="@+id/img_Section1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:visibility="visible"
+                android:minWidth="75dp"
+                android:maxWidth="75dp"
+                android:maxHeight="90dp"
+                android:minHeight="90dp"/>
+
+            <ImageView
+                android:id="@+id/img_Section2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/img_Section1"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:minWidth="75dp"
+                android:maxWidth="75dp"
+                android:maxHeight="90dp"
+                android:minHeight="90dp"/>
+
+
+            <FrameLayout
+                android:id="@+id/frame_l1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/img_Section2"
+                android:layout_alignLeft="@+id/img_Section2"
+                android:layout_alignRight="@+id/img_Section2"
+
+                android:layout_marginTop="5dp">
+
+                <!-- You won't use the src tag seeing as you get your image from a -->
+                <!-- server, but I have it for the sake of demonstration.          -->
+
+
+                    <ImageView
+                        android:id="@+id/img_Section3"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:id="@+id/shadow_view"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:alpha=".4"
+                        android:background="#000000"/>
+
+                    <TextView
+                        android:id="@+id/more_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:textSize="25sp"
+                        android:text="MOre"
+                        android:textColor="@android:color/white"/>
+
+
+
+                </RelativeLayout>
+                <!-- This is a basic view that has a black background and a .4 alpha -->
+
+
+
+            </FrameLayout>
+
+            <!--<ImageView-->
+                <!--android:id="@+id/img_Section3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/img_Section2"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:minWidth="75dp"-->
+                <!--android:maxWidth="75dp"-->
+                <!--android:maxHeight="90dp"-->
+                <!--android:minHeight="90dp"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/more_txt"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignTop="@+id/img_Section3"-->
+                <!--android:layout_toRightOf="@+id/offerImage"-->
+                <!--android:layout_marginTop="55dp"-->
+                <!--android:textSize="30sp"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textStyle="bold"-->
+                <!--android:text="More"/>-->
+            <!--<android.support.v7.widget.AppCompatImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_toLeftOf="@+id/img_Section1"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_marginLeft="3dp"-->
+                <!--android:visibility="visible"-->
+                <!--android:scaleType="centerInside"-->
+                <!--android:background="@drawable/rounded_new_8"-->
+                <!--android:src="@drawable/loading"-->
+                <!--android:id="@+id/offerImage"/>-->
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/img_Section1"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="3dp"
+                android:visibility="visible"
+                android:scaleType="centerInside"
+                android:src="@drawable/loading"
+                android:id="@+id/offerImage"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:paddingLeft="3dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/dateduntil"
+                android:layout_centerVertical="true"
+                android:text="2016-12-31"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/dateduntil"
+                android:text="@string/until"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                android:lines="1"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/start_date"
+                android:lines="1"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:paddingLeft="5dp"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:text="2016-12-29"
+                android:id="@+id/datedFrom"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/end_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/datedFrom"
+                android:layout_centerVertical="true"
+                android:paddingLeft="5dp"
+                android:text="@string/from"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:lines="1"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/likes_img"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:paddingRight="5dp"
+                android:layout_toLeftOf="@+id/likes"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/likes"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:text="120"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:id="@+id/likes"
+                android:textColor="@android:color/black"
+                android:lines="1"/>
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toLeftOf="@+id/views"
+                android:scaleType="centerInside"
+                android:layout_centerVertical="true"
+                android:paddingRight="5dp"
+                android:src="@drawable/views"
+                />
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2080986"
+                android:layout_toLeftOf="@+id/likes_img"
+                android:paddingRight="5dp"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:lines="1"
+                android:id="@+id/views"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--</android.support.v7.widget.CardView>-->
+</android.support.v7.widget.CardView>

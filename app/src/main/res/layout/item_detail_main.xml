@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/coordinate"
+    android:background="@color/textColor"
+    tools:context="arab_offers.lue.com.ItemDetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarx"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbars"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme" >
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_title"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+        </android.support.v7.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:orientation="vertical"
+            android:background="@android:color/holo_green_dark"
+            ></LinearLayout>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+    <include
+        layout="@layout/test"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="10dip"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/comments"-->
+        <!--android:scrollbars = "vertical"-->
+        <!--android:gravity="right"-->
+        <!--android:visibility="visible"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="5dip"-->
+        <!--android:padding="10dip"-->
+        <!--android:layout_below="@+id/likenComment"-->
+        <!--android:layout_marginBottom="60dip"/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dip"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:weightSum="1">-->
+        <!--<android.support.v7.widget.AppCompatEditText-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_weight="0.75"-->
+            <!--android:id="@+id/addcomment"-->
+            <!--android:textSize="12dip"-->
+            <!--android:background="@drawable/rounded_new_3"-->
+            <!--android:layout_marginLeft="10dip"-->
+            <!--android:layout_marginRight="10dip"-->
+            <!--android:layout_marginBottom="20dip"-->
+            <!--android:hint="@string/comment"-->
+            <!--android:textColorHint="@color/colorPrimaryDark"-->
+            <!--android:padding="10dip"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textStyle="normal"-->
+            <!--&gt;</android.support.v7.widget.AppCompatEditText>-->
+        <!--<android.support.v7.widget.AppCompatButton-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="send"-->
+            <!--android:id="@+id/buttonSend"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_weight="0.25"/>-->
+    <!--</LinearLayout>-->
+</android.support.design.widget.CoordinatorLayout>

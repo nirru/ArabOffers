@@ -1,0 +1,193 @@
+<resources>
+   <!-- <string name="app_name">Arab Offers</string>
+    <string name="app_print">ARAB\nOFFERS</string>
+    <string name="share_using">Share using ...</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2647417852767991/8823849467</string>
+    <string name="reg_head">Register to see the nearest offers in your Area</string>
+    <string name="reg_name">Name:</string>
+    <string name="reg_age">Age Range:</string>
+    <string name="reg_gender">Gender : </string>
+    <string name="reg_undefined">Undefined</string>
+    <string name="country">Country:</string>
+    <string name="mobile">Mobile Number:</string>
+    <string name="choose">Choose</string>
+    <string name="city">City:</string>
+    <string name="region">Region(Area):</string>
+    <string name="ok">OK</string>
+    <string name="reg_later">Register later</string>
+    <string name="offers">special Offers</string>
+    <string name="until">: Until</string>
+    <string name="from">: From</string>
+    <string name="comments">Comments</string>
+    <string name="comment">Add Comment</string>
+    <string name="setting">Setting</string>
+    <string name="allnoton">Turn All Notification ON</string>
+    <string name="allnotoff">Turn All Notification OFF</string>
+    <string name="supernoton">Turn Notification ON for superMarket</string>
+    <string name="supernotoff">Turn Notification OFF for superMarket</string>
+    <string name="resnoton">Turn Notification ON for Restaurants</string>
+    <string name="resnotoff">Turn Notification OFF for Restaurants</string>
+    <string name="collnoton">Turn Notification ON for Collections</string>
+    <string name="collnotoff">Turn Notification OFF for Collections</string>
+    <string name="pubWhatsapp">Publish the App Via WhatsApp</string>
+    <string name="contactUs">Contact Us</string>
+    <string-array name="age_range">
+        <item>16-20 Years</item>
+        <item>21-25 Years</item>
+        <item>26-30 Years</item>
+        <item>31-35 Years</item>
+        <item>36-40 Years</item>
+        <item>41-45 Years</item>
+        <item>46-50 Years</item>
+        <item>51-55 Years</item>
+        <item>56-60 Years</item>
+        <item>60+ Years</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Undefined</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="collection">
+        <item>COLLECTION</item>
+        <item>RESTAURANTS</item>
+        <item>SUPERMARKET</item>
+    </string-array>
+    <string name="validatename">Name field has not a valid length.</string>
+    <string name="select">Select</string>
+    <string name="validateage">Age is not selected.</string>
+    <string name="validatecountry">Country field is empty.</string>
+    <string name="validatemobile">kindly put a valid mobile number.</string>
+    <string name="validatecity">City is not selected.</string>
+    <string name="validatearea">Region is not selected.</string>
+    <string name="notregistered">You have not completed registration.</string>
+    <string name="alert">Alert</string>
+    <string name="registerNow">Register now</string>
+    <string name="cancel">Cancel</string>
+    <string name="registerednow">Congrats ! You have successfully registered.</string>
+    <string name="hello">Hello World, LoadMoreListView!</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+
+
+
+
+
+    <string name="title">Arab Offers</string>
+    <string name="registerhead">Register to see the nearest offers in your Area</string>
+    <string name="name">Name:</string>
+    <string name="age_range">Age Range:</string>
+    <string name="registerlater">Register Later</string>
+    <string name="supermarket">Supermarket</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="collection">Collection</string>
+    <string name="specialoffer">Special Offer</string>
+    <string name="addcomment">Add Comment</string>
+    <string name="allonoff">Turn all Notification ON/OFF</string>
+    <string name="superonoff">Turn notification ON/OFF for supermarket</string>
+    <string name="resonoff">Turn notification ON/OFF for restaurants</string>
+    <string name="publishwhatsapp">Publish the App Via Whatsapp</string>
+    <string name="contactus">Contact Us</string>
+    <string name="choosecountry">Please choose your country</string>
+    <string name="choosecity">Please choose your city</string>
+    <string name="choosearea">Please choose your Area</string>
+    <string name="cooemntsdisabled">Comments disabled for this offer</string>-->
+   <string name="app_name">عروض العرب</string>
+   <string name="app_print">عروض العرب</string>
+   <string name="share_using">المشاركة باستخدام ...</string>
+   <string name="banner_ad_unit_id">ca-app-pub-2647417852767991/8823849467</string>
+   <string name="reg_gender"> الجنس</string>
+   <string name="reg_undefined">غير محدد</string>
+   <string name="choose">اختار</string>
+   <string name="reg_later">سجل لاحقا</string>
+   <string name="offers">عرض مميز</string>
+   <string name="more">المزيد</string>
+
+   <string name="comment">أضف تعليق</string>
+
+   <string name="resnoton">ايقاف أو تشغيل التنبيهات لقسم المطاعم  </string>
+   <string name="resnotoff">ايقاف أو تشغيل التنبيهات لقسم المطاعم  </string>
+   <string name="notregistered">لم تكمل تسجيل.</string>
+   <string name="alert">إنذار</string>
+   <string name="registerNow">سجل الان</string>
+   <string name="cancel">الغاء</string>
+   <string name="collnotoff">ايقاف أو تشغيل التنبيهات لقسم المنوعات  </string>
+   <string name="collnoton">ايقاف أو تشغيل التنبيهات لقسم المنوعات  </string>
+   <string name="pubWhatsapp">نشر التطبيق عبر الواتساب</string>
+   <string name="contactUs">اتصل بنا</string>
+   <string-array name="age_range">
+      <item>16-20 سنوات</item>
+      <item>21-25 سنوات</item>
+      <item>26-30 سنوات</item>
+      <item>31-35 سنوات</item>
+      <item>36-40 سنوات</item>
+      <item>41-45 سنوات</item>
+      <item>46-50 سنوات</item>
+      <item>51-55 سنوات</item>
+      <item>56-60 سنوات</item>
+      <item>60+ سنوات</item>
+   </string-array>
+   <string-array name="gender">
+      <item>غير محدد</item>
+      <item>ذكر</item>
+      <item>أنثى</item>
+   </string-array>
+   <string-array name="collection">
+      <item>منوعات</item>
+      <item>مطاعم</item>
+      <item>سوبرماركت</item>
+   </string-array>
+   <string name="validatename">يحتوي حقل الاسم ليس طول صالح.</string>
+   <string name="select">اختار</string>
+   <string name="validateage">لم يتم تحديد العمر.</string>
+   <string name="validatecountry">حقل البلد فارغ.</string>
+   <string name="validatemobile">يرجى وضع رقم جوال صحيح.</string>
+   <string name="validatecity">لم يتم تحديد المدينة.</string>
+   <string name="validatearea">لم يتم تحديد المنطقة.</string>
+   <string name="registerednow">مبروك ! تم تسجيلك بنجاح.</string>
+   <string name="hello">مرحبا العالم، LoadMoreListView!</string>
+   <string name="pull_to_refresh_pull_label">إسحب للتحديث</string>
+   <string name="pull_to_refresh_release_label">اترك للتحديث</string>
+   <string name="pull_to_refresh_refreshing_label">جاري التحديث</string>
+   <string name="pull_to_refresh_tap_label">جاري التحديث</string>
+   <string name="testDeviceID">7E8E3B900656AD9D213508C3D547EACC</string>
+
+
+
+
+
+   <string name="title">عروض العرب</string>
+   <string name="reg_head">سجل معلوماتك الآن لمشاهدة عروض منطقتك</string>
+   <string name="reg_name">الإسم:</string>
+   <string name="name">الإسم:</string>
+   <string name="reg_age">الفئة العمرية:</string>
+   <string name="country">الدولة:</string>
+   <string name="mobile"> رقم الموبايل:</string>
+   <string name="city">المدينة:</string>
+   <string name="region">المنطقة (الحي):</string>
+   <string name="ok">موافق</string>
+   <string name="correct_mobile_enter">رقم الموبايل غير صحيح الرجاء ادخال رقم الموبايل الصحيح</string>
+   <string name="enter_mobile_no">الرجاء ادخال رقم الموبايل الصحيح</string>
+   <string name="registerlater">التسجيل لاحقا</string>
+   <string name="supermarket">سوبرماركت</string>
+   <string name="restaurants">مطاعم</string>
+   <string name="collection">منوعات</string>
+   <string name="specialoffer">عرض مميز</string>
+   <string name="from">من</string>
+   <string name="until">حتى</string>
+   <string name="comments">التعليقات</string>
+   <string name="addcomment">إضافة تعليق</string>
+   <string name="commentsdisabled">التعليقات غير متاحة لهذا العرض</string>
+   <string name="setting">الإعدادات</string>
+   <string name="allnoton">إيقاف أو تشغيل جميع التنبيهات </string>
+   <string name="allnotoff">إيقاف أو تشغيل جميع التنبيهات </string>
+   <string name="supernoton">ايقاف أو تشغيل التنبيهات لقسم السوبرماركت  </string>
+   <string name="supernotoff">ايقاف أو تشغيل التنبيهات لقسم السوبرماركت  </string>
+   <string name="contactus"> اتصل بنا</string>
+   <string name="choosecountry">الرجاء اختيار الدولة</string>
+   <string name="choosecity">الرجاء اختيار المدينة</string>
+   <string name="choosearea">الرجاء اختيار المنطقة (الحي)</string>
+   <string name="cooemntsdisabled">التعليقات غير متاحة لهذا العرض</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1076157054560",
+    "firebase_url": "https://araboffers-98cd1.firebaseio.com",
+    "project_id": "araboffers-98cd1",
+    "storage_bucket": "araboffers-98cd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076157054560:android:e4aa9664ca6000d2",
+        "android_client_info": {
+          "package_name": "arab_offers.lue.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076157054560-8jfbo32pe1iu4in970evuib8cho71v92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh7Q39bgtAaf74jE2dzGmNTFTsZiaTWrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
